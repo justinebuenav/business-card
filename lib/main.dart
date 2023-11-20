@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
 
                 ),
                 Text(
-                    'App Developer',
+                    'App Developer, Ascendant 3 peak :>',
                     style: TextStyle(
                         fontFamily: 'PlayfairDisplay',
                         fontSize: 20.0,
@@ -79,6 +79,27 @@ class MyApp extends StatelessWidget {
                         ),
                         title: Text(
                             'bjs1388@dlsud.edu.ph',
+                            style: TextStyle(
+                                fontFamily: 'PlayfairDisplay',
+                                fontSize: 18.0,
+                                fontWeight: FontWeight.w600,
+                                color: Colors.blueGrey
+                            )
+                        ),
+                      ),
+                    )
+                ),
+                Card(
+                    margin: EdgeInsets.symmetric(horizontal: 30.0, vertical: 10.0),
+                    child: Padding(
+                      padding: EdgeInsets.all(2.0),
+                      child: ListTile(
+                        leading: Icon(
+                            Icons.healing,
+                            color: Colors.blueGrey
+                        ),
+                        title: Text(
+                            'Yelan #1973',
                             style: TextStyle(
                                 fontFamily: 'PlayfairDisplay',
                                 fontSize: 18.0,
